@@ -2,7 +2,7 @@
 
 This project demonstrates how to install and use the TurtleBot3 simulation in ROS Noetic, create a map using gmapping, and then use the map for navigation.
 
-![TurtleBot3 Simulation](images/turtlebot3_simulation.png)
+![TurtleBot3 Simulation]([images/turtlebot3_simulation.png](https://github.com/m3hm0o0ud/Run-the-TurtleBot3-Simulation/blob/main/screenshots/turtleBot3.jpg))
  
 
 ### Steps to Set Up and Run the TurtleBot3 Simulation
@@ -47,7 +47,7 @@ Start the TurtleBot3 Gazebo simulation with an empty world:
 ```bash
 roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 ```
-![Setup](images/setup.png)
+![Setup]([images/setup.png](https://github.com/m3hm0o0ud/Run-the-TurtleBot3-Simulation/blob/main/screenshots/turtle1.jpg))
 
 #### 6. Start Teleoperation to Move the Robot
 In a new terminal, start the teleoperation node to control the TurtleBot3:
@@ -55,7 +55,7 @@ In a new terminal, start the teleoperation node to control the TurtleBot3:
 ```bash
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
-![Setup](images/setup.png)
+![Setup]([images/setup.png](https://github.com/m3hm0o0ud/Run-the-TurtleBot3-Simulation/blob/main/screenshots/turtle3.jpg))
 
 #### 7. Launch Gmapping for SLAM
 In another terminal, launch the gmapping demo for SLAM:
